@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "solutiondevopstest-client-side-solution",
+    "id": "43f09538-7910-4f2c-9614-e85b14d8fe66",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+     "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "skipFeatureDeployment": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/solutiondevopstest.sppkg"
+  }
+}
