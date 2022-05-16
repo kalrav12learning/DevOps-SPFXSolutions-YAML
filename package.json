@@ -35,49 +35,9 @@
     "ajv": "~5.2.2",
     "gulp": "~4.0.2",
     "identity-obj-proxy": "3.0.0",
-    "jest": "^28.1.0",
     "react-test-renderer": "18.1.0"
   },
   "resolutions": {
     "@types/react": "16.7.22"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "ts-jest"
-    },
-    "testMatch": [
-      "**/src/**/*.test.+(ts|tsx|js)"
-    ],
-    "collectCoverage": true,
-    "coverageReporters": [
-      "json",
-      "lcov",
-      "text",
-      "cobertura"
-    ],
-    "coverageDirectory": "<rootDir>/jest",
-    "moduleNameMapper": {
-      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
-    },
-    "reporters": [
-      "default",
-      "jest-junit"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    }
-  },
-  "jest-junit": {
-    "output": "./jest/summary-jest-junit.xml"
   }
 }
